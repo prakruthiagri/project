@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing:border-box;
+}
+header{
+    background:linear-gradient(to top  ,rgba(245, 243, 243, 0.5)50%,rgba(235, 240, 234, 0.5)50%);
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    width: 100%;;
+
+    background-position:right;
+    background-size: cover;
+    height: 109vh;
+
+}
+.navbar{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+}
+.icon{
+    width: 150px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #f11612;
+    font-size: 30px;
+    font-family: Arial;
+    padding-right: 20px;
+    float: 10px;
+}
+.menu{
+    width: 1000px;
+    float: left;
+    height: 60px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: right;
+    align-items: left;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(15, 15, 14);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+h1{
+    background-color: green;
+    color: #e2b810;
+    margin:lem 2;
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer{
+  margin: top 300px;
+  width: 100%;
+  padding: 10px 10%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+}
+.footer div{
+  text-align: center;
+}
+.col-2{
+  flex-grow:3;
+}
+.footer div h4{
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 5px;
+}
+form input{
+  width: 400px;
+  height: 40px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+form button{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.icons a{
+  text-decoration: none;
+  color: #fff;
+}
+.icons ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+
+icons ion-icon:hover{
+  color: #e2b810;
+}
+CONTACT{
+  color: red;
+}
+p{
+  font-size: 20px;
+  text-indent: 70px;
+  line-height: 2.0;
+}
+h4{
+  font-size: 25px;
+  color: #f11612;
+
+}
+h5{
+  font-size: 25px;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  text-align: center;
+}
+h6{
+  font-size: 25px;
+  line-height: 1.8;
+  text-align: center;
+}
